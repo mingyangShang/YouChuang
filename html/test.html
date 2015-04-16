@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+<link rel="stylesheet" type="text/css" href="../css/base.css" />
+<script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+<title>优创公司</title>
+<style type="text/css">
+	iframe{
+		width: 100%;
+		position: absolute;
+		top: 40px;
+	}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#load").click(function(event) {
+			$("#offerlist").load("http://qhlqq123.1688.com/page/offerlist.htm");
+		});
+	});
+</script>
+</head>
+
+<body>
+	<span>记得</span>
+	<button id="load">load</button>
+	<!-- <iframe src="http://qhlqq123.1688.com/page/offerlist.htm"> -->
+	<div id="offerlist">
+
+	</div>
+</body>
+
+</html>

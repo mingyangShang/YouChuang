@@ -1,0 +1,65 @@
+/*.company-contact{
+	margin-left: 3%;
+	width: 32%;
+	float: left;
+	text-align: center;
+}
+.company-info,.company-contact{
+	width: 60%;
+	float: left;
+}*/
+/*供应商信息*/
+#company{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.m-content{
+	border:1px solid #d8d8d8;
+}
+#suppier .m-content{
+	text-align: center;
+	font-size: 15px;
+	padding:8px;
+}
+
+.fx-body{
+	overflow: hidden;
+	padding: 21px 25px 25px;
+}
+.company-info .fx-body h4{
+	font-size:18px;
+	color:#fe3501;
+	font-family:Microsoft YaHei,黑体;
+	font-weight:bold;
+	background:url(http://i03.c.aliimg.com/img/ibank/2013/593/781/837187395_2097112388.jpg) no-repeat right center;
+	height:28px;
+	line-height:28px;
+	overflow:hidden
+}
+.suppier-body p{
+	font-size:13px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.company-contact{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.fx-box p{
+	color:#666;
+	font-size: 13px;
+	padding: 3px;
+}
+
+/*公司简介信息*/
+.info-wrap{
+	padding: 10px;
+}
+.info-wrap p{
+	font-size: 14px;
+}
+.grid-main .m-content{
+	border:none;
+}

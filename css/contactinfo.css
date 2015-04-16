@@ -1,0 +1,60 @@
+#contact{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#contact .m-content h4{
+	margin-bottom: 5px;
+}
+#contact .m-content p{
+	font-size:13px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#contact .contact-info{
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+#contact .m-content a{
+	color: #666;
+	text-decoration: none;
+}
+#contact .m-content a:hover{
+	text-decoration: underline;
+}
+#mapContainer{
+	height: 400px;
+	width: 100%;
+}
+.m-content{
+	border:1px solid #d8d8d8;
+}
+
+/*供应商信息*/
+#suppier .m-content{
+	text-align: center;
+	font-size: 15px;
+	padding:8px;
+}
+#category .m-content{
+	padding: 21px 25px 25px;
+	overflow: hidden;
+}
+.fx-list li{
+	background:url(http://i03.c.aliimg.com/img/ibank/2013/293/781/837187392_2097112388.jpg) no-repeat;
+	height: 30px;
+	text-align: center;
+	padding-bottom: 5px;
+	line-height: 30px;
+	background-size: 100% 30px;
+	margin-bottom: 6px;
+	border-bottom: 1px dotted #cbcbcb;
+}
+#category{
+	margin-top: 30px;
+}
+#category .m-content{
+}
+.shop-category span{
+	font-size: 14px;
+}
+

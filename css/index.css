@@ -1,0 +1,270 @@
+/*整个页面*/
+body{
+	margin: 0px;
+	width: 100%;
+}
+.themecolor{
+	color: blue;
+}
+/*标题文字*/
+.title{
+	color:blue;
+	font-size:1em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.content{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.price{
+	color: #ff5500;
+}
+.number{
+	font-family: Arial,黑体,"黑体,SimHei,arial,sans-serif";
+}
+p{
+	padding: 0px;
+	margin: 0px;
+}
+ul{
+	list-style: none;
+	display: block;
+}
+.a-no-line a{
+	text-decoration: none;
+}
+*{
+	font-family:  "Microsoft YaHei","MicrosoftJhengHei",STHeiti,MingLiu;
+}
+
+
+/*页面头部*/
+/*公司名称logo图片*/
+#div_company-name img{
+	width: 100%;
+	height:80px;
+}
+
+/*页面内容*/
+/*链接栏*/
+#div_toolbox{
+	height:40px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#3e3e3e),to(#444));
+	background-image: -webkit-linear-gradient(#3e3e3e,#444);
+	background-image: -moz-linear-gradient(#3e3e3e,#444);
+	background-image: -ms-linear-gradient(#3e3e3e,#444);
+	background-image: -o-linear-gradient(#3e3e3e,#444);
+	background-image: linear-gradient(#3e3e3e,#444);
+	line-height: 40px;
+	padding-left: 15%;
+}
+
+ul#links{
+	display: inline;
+	list-style: none;
+	height: 100%;
+}
+ul#links li{
+	float: left;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+}
+ul#links li a{
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 16px;
+}
+ul#links li.selected a{
+	background: blue;
+}
+ul#links li a:hover{
+	background: blue;
+	text-decoration: none;
+}
+#div_toolbox div{
+	width:10%;
+	float: left;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+}
+#div_toolbox div:first-child{
+	margin-left: 14%;
+}
+#div_toolbox div span{
+	color:white;
+}
+/*展示图片*/
+#div_show{
+	width: 100%;
+	text-align: center;
+}
+#div_show .slider{
+	height: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+/*#div_show img{
+	width: 100%;
+	height: 100%;
+}*/
+/*公司的具体分类信息*/
+#div_intro{
+	width: 100%;
+	height: 150px;
+}
+#div_intro .content{
+	padding-left: 10%;
+	padding-right: 10%;
+	min-height: 1px;
+	height: 100%;
+}
+/*#div_intro .content .left,#div_intro .content .right{
+	padding-top: 8px;
+}*/
+/*公司简介*/
+#div_intro .left{
+	float: left;
+	width:70%;
+	min-height: 1px;
+	display: inline;
+}
+#div_intro .right{
+	float: left;
+	width: 30%;
+	min-height: 1px;
+	display: inline;
+}
+#company-name{
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#company-img{
+	float: left;
+	width:20%;
+}
+#company-img img{
+	width:100%;
+	height:80px;
+}
+#company-intro{
+	width:78%;
+	padding-left:2%;
+	padding-top: 3px;
+	float: left;
+	color:#7A7A7A;
+}
+#more-hint{
+	color:blue;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+/*右侧合作共赢*/
+.right .top,.right .bottom{
+	width:60%;
+	padding-left: 40%;
+	padding-top: 8px;
+}
+.right .top{
+	height: 70%;
+}
+.right .bottom{
+	height: 30%;
+	padding-top: 0px;
+}
+.right .top img,.right .bottom img{
+	width: 100%;
+}
+.right p{
+	font-size: 0.8em;
+}
+/*产品展示*/
+#div_product{
+	width: 90%;
+	padding-left: 10%;
+	padding-top: 8px;
+	border-top: 2px solid #ebebeb;
+}
+ul.product-list{
+	height: 190px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.product-list li{
+	width: 150px;
+	float: left;
+	border:1px solid #eee;
+	padding: 7px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.product-title{
+	height: 36px;
+	overflow: hidden;
+	font-size: 12px;
+	color: black;
+}
+.price{
+	color: #ff5500;
+}
+/*产品链接*/
+.product-title a{
+	color: black;
+	text-decoration:none;
+}
+.product-title a:hover{
+	text-decoration: underline;
+}
+/*页面底部*/
+#footer{
+	width: 100%;
+	margin-top: 10px;
+	background-color: #ececec;
+	height: 50px;
+	line-height: 50px;
+	display: none;
+}
+/*公司联系信息*/
+#div_contact{
+	text-align: center;
+	vertical-align: middle;
+}
+#div_contact p{
+	padding: 3px;
+	margin: 0px;
+	color:#7A7A7A;
+	font-size: 0.8em;
+	font-weight: 500;
+}
+/*空信息*/
+ul#empty{
+	display: inline;
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+}
+ul#empty li{
+	float: left;
+	color: #7A7A7A;
+	font-weight: 500;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ul#empty li:first-child{
+	margin-left: 10%;
+}
+ul#empty a{
+	border-right: 2px solid #ebebeb;
+}
+ul#empty a:last-child{
+	border-right: none;
+}

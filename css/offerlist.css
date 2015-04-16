@@ -1,0 +1,287 @@
+#div_offer{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.wp-all-offer-column .wp-all-offer-tab{
+	clear: both;
+}
+.wp-all-offer-column .wp-offerlist-view-setting{
+	border:1px solid #eee;
+	clear: left;
+	color: #666666;
+	height: 38px;
+	margin-bottom: 8px;
+	padding: 0 10px;
+	background-color: #fafafa;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting{
+	margin-top: 8px;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting li{
+	float: left;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .show-type, .app-officialsite_offerColumn .wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort{
+	margin-right: 16px;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .filters{
+	float: right;
+	width: 263px;
+	text-align: right;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting li label{
+	height: 23px;
+	line-height: 23px;
+	margin-right: 3px;
+	float: left;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .icon{
+	display: inline-block;
+	height: 23px;
+	margin-right: 2px;
+	vertical-align: text-bottom;
+	width: 23px;
+	cursor: pointer;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .time-down .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .price-down .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .tradenum-down .icon{
+	background:url("http://img.china.alibaba.com/cms/upload/winport/offercolumn/sort_down.png") no-repeat;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .time-down-select .icon, 
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .price-down-select .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .tradenum-down-select .icon{
+	background:url("http://img.china.alibaba.com/cms/upload/winport/offercolumn/current_sort_down2.png") no-repeat;
+}
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .time-up .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .price-up .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .tradenum-up .icon{
+	background: url("http://img.china.alibaba.com/cms/upload/winport/offercolumn/sort_up.png") no-repeat;
+}
+.app-officialsite_offerColumn .wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .time-up-select .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .price-up-select .icon,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .sort .tradenum-up-select .icon{
+	background: url("http://img.china.alibaba.com/cms/upload/winport/offercolumn/sort_down.png") no-repeat;
+}
+
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .price-range .price-low,
+.wp-all-offer-column .wp-offerlist-view-setting .view-setting .price-range .price-high{
+	width: 50px;
+	height: 23px;
+	line-height: 23px;
+	padding-left: 4px;
+	border:1px solid #b7b7b7;
+}
+.common-column-150 .offer-list-row{
+	height: 288px;
+}
+.common-column-150 .offer-list-row li{
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 10px;
+	width: 150px;
+	padding: 7px;
+	border:1px solid #eee;
+	height: 220px;
+	overflow: hidden;
+}
+.offer-list-row{
+	margin: 0 auto;
+	/*width: 718px;*/
+	padding-bottom: 16px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.common-column-150{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.common-big-150 .offer-list-row .image,
+.common-column-150 .offer-list-row .image{
+	display: table;
+	font-size: 0px;
+	height: 150px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-align: center;
+	width: 150px;
+}
+.offer-list-row .image a{
+	display: table-cell;
+	vertical-align: middle;
+}
+.offer-list-row .price{
+	margin-bottom: 5px;
+}
+.offer-list-sub .cny,
+.offer-list-row .hover .price-detail .price .cny,
+.offer-list-row .price .cny{
+	color: #ff5500;
+	float: left;
+	font-family: Arial;
+	margin-right: 2px;
+}
+.offer-list-row .price em{
+	color: #ff5500;
+	float: none;
+	font-weight: bold;
+}
+.offer-list-row .title{
+	height: 36px;
+	margin-bottom: 5px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+.grid-sub{
+	width: 230px;
+	margin-left: -100%;
+	float: left;
+}
+.search{
+	height: 130px;
+}
+.part-searchInSite{
+	margin-bottom: 8px;
+}
+.grid-sub .part-searchInSite dl{
+	width: 100%;
+	overflow: hidden;
+}
+.part-searchInSite dt{
+	width: 38px;
+	margin-right: 8px;
+	text-align: right;
+}
+.part-searchInSite dt,.part-searchInSite dd{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 4px;
+}
+
+.part-searchInSite .searchkeywords{
+	width: 130px;
+}
+.part-searchInSite dl input{
+	height: 18px;
+	padding: 3px 0 0;
+	border:1px solid #9FA3A4;
+	vertical-align: middle;
+}
+.part-searchInSite .price-low{
+	margin-right: 8px;
+}
+.part-searchInSite .price-high{
+	margin-left: 8px;
+}
+.part-searchInSite .price-low,.part-searchInSite .price-high{
+	width: 50px;
+}
+.grid-sub .part-searchInSite .search-btn, .grid-extra .part-searchInSite .search-btn{
+	margin: 4px 0 0 72px;
+}
+.part-searchInSite .search-btn{
+	display: block;
+	width: 69px;
+	height: 26px;
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+	background: url(http://img.china.alibaba.com/images/app/winport/layout/list/listbg.gif) no-repeat 0 -31px;
+
+}
+
+.category .shop-category{
+	line-height: 1.8em;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+ul.simple{
+}
+.category .shop-category ul.simple li{
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+	border-bottom: 1px dotted #cbcbcb;
+	background:url(http://i03.c.aliimg.com/img/ibank/2013/293/781/837187392_2097112388.jpg) no-repeat;
+	text-align: center;
+	line-height: 30px;
+	background-size: 100% 30px;
+}
+.category .shop-category ul.simple li:last-child{
+	border-bottom: none;
+}
+.category .shop-category ul.simple .cat-hd{
+	font-weight: bold;
+}
+.skin-link-color,.mod a{
+	color: #666;
+	text-decoration: none;
+}
+.mod a.a-color{
+	color: blue;
+}
+.mod a:hover{
+	text-decoration: underline;
+}
+.shop-category span{
+	font-size: 14px;
+}
+
+
+.fx-list li{
+	background:url(http://i03.c.aliimg.com/img/ibank/2013/293/781/837187392_2097112388.jpg) no-repeat;
+	height: 30px;
+	text-align: center;
+	padding-bottom: 5px;
+	line-height: 30px;
+}
+
+/**/
+.m-content{
+	border:1px solid #d8d8d8;
+	overflow: hidden;
+	padding: 21px 25px 25px;
+	border-width: 0 1px 1px 1px;
+}
+.company-info .m-content{
+	border:none;
+}
+.category .fx-body{
+	padding: 0px;
+	border:none;
+}
+.category .m-content{
+	border:1px solid #d8d8d8;
+}
+.company-info .fx-body h4{
+	font-size:18px;
+	color:#fe3501;
+	font-family:Microsoft YaHei,黑体;
+	font-weight:bold;
+	background:url(http://i03.c.aliimg.com/img/ibank/2013/593/781/837187395_2097112388.jpg) no-repeat right center;
+	height:28px;
+	line-height:28px;
+	overflow:hidden
+}
+.company-info,.company-contact{
+	width: 65%;
+	float: left;
+}
+
+
+/**/
+.fx-box p,.fx-body p{
+	color:#666;
+	font-size: 13px;
+	padding: 3px;
+}
+.company-contact{
+	margin-left: 3%;
+	width: 32%;
+	float: left;
+	text-align: center;
+}
